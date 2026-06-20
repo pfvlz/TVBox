@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 定时任务：每天 UTC 0:00 自动执行一次
+    - cron: '0 6 * * *'  # 定时任务：每天 UTC 0:00 自动执行一次
   workflow_dispatch:      # 允许在页面上手动触发同步
 
 jobs:
